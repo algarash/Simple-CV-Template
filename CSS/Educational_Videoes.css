@@ -1,0 +1,174 @@
+body{
+    background-color:darkcyan;
+}
+.pic{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    border-style: groove;
+    border-color: #C1B6AC;
+    margin: 20px;
+    float: left;
+}
+
+header{
+background-color: #A7B3CB;
+padding: 25px;
+height: 310px;
+border-radius: 30px;
+text-align: center;
+}
+.personal_info{
+border-top-style: solid;
+border-top-color: #F5F5F7;
+margin-left: 70px;
+margin-top: 3%;
+}
+.pic_info{
+    float: left;
+    margin-left: 30px;
+    font-size: 10px;
+    width:35px;
+    height:35px;
+    border-radius: 100px;
+    background-color:#C1B6AC ;
+    margin-top: 25px;
+
+}
+.D_info{
+float: left;
+margin-left: 140px;
+font-size: 15px;
+margin-bottom: 5px;
+font-family:sans-serif;
+}
+.icon {
+    float: left;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 40px;
+    color: bold black;
+   
+  }
+main{
+    clear: both;
+    padding: 10px;
+   }
+   nav a{
+    line-height: 50px;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+  background-color: rgb(124, 190, 192);
+  padding: 10px;
+    border-radius: 100px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav{
+    position: inherit;
+    clear: both;
+   margin-top: 140px;
+   margin-left: 100px;
+   background-color:none;
+}
+.back{
+    background-color:#C1B6AC ;
+    border-radius: 100px;
+    border-top-style: solid;
+    border-top-color: #F5F5F7;
+    margin-left: 62px;
+ }
+ .style3{
+    font-size: large;
+    font-family: sans-serif;
+}
+section{
+    width: 75%;
+    height: auto;
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color:rgb(124, 190, 192);
+
+ }
+ video{
+    width:340px;
+    height:260px;
+    margin-left: 30px;
+    border-radius: 20px;
+ }
+ nav a:hover{
+    background-color:white;
+    border-radius: 100px;
+   
+}
+.active{
+    background-color: rgb(214, 209, 209);
+}
+.home{
+    float: left;
+    margin-top:5px;
+    width:35px;
+    height:35px;
+    border-radius: 100px;
+    background-color: rgb(124, 190, 192);;
+}
+.homy{
+    border-radius: 100px;
+     background-color :darkcyan;
+
+    }
+    .homy:hover{
+        background-color: white;
+    }
+@media (max-width: 1100px) {
+    .pic{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: #C1B6AC;
+        margin: 5px;
+        float: none;
+    }
+    header{        
+        background-color: #A7B3CB;
+        height: auto;
+        width: 90%;
+        border-radius: 30px;
+    
+        }
+        .personal_info{
+            display: block;
+            }
+            .pic_info{
+                display: block;
+                float: left;
+                margin-left: 30px;
+                font-size: 10px;
+                width:25px;
+                height:25px;
+                border-radius: 100px;
+                background-color:#C1B6AC ;
+                margin-top: 25px;
+            
+            }
+            nav ul{
+                display:inline-block;     
+            }
+            section{
+                clear: both;
+                margin-right: 100%;
+                display: inline;
+                width: 100%;
+                height: auto;
+                background-color:rgb(124, 190, 192);
+            }
+
+
+}
