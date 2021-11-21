@@ -169,6 +169,64 @@ section{
                 height: auto;
                 background-color:rgb(124, 190, 192);
             }
+            video{
+                width:480px;
+                height:360px;
+                margin-left: 30px;
+                border-radius: 20px;
+             }
+
+
+}
+@media (max-width: 750px) {
+    .pic{
+        height: 100px;
+        width: 100px;
+        border-radius: 10px;
+        border-style: groove;
+        border-color: #C1B6AC;
+        margin: 5px;
+        float: none;
+    }
+    header{        
+        background-color: #A7B3CB;
+        height: auto;
+        width: 90%;
+        border-radius: 30px;
+    
+        }
+        .personal_info{
+            display: block;
+            }
+            .pic_info{
+                display: block;
+                float: left;
+                margin-left: 30px;
+                font-size: 10px;
+                width:25px;
+                height:25px;
+                border-radius: 100px;
+                background-color:#C1B6AC ;
+                margin-top: 25px;
+            
+            }
+            nav ul{
+                display:inline-block;     
+            }
+            section{
+                clear: both;
+                margin-right: 100%;
+                display: inline;
+                width: 100%;
+                height: auto;
+                background-color:rgb(124, 190, 192);
+            }
+            video{
+                width:360px;
+                height:280px;
+                margin-left: 30px;
+                border-radius: 20px;
+             }
 
 
 }
